@@ -1,0 +1,161 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1f242d;
+    
+}
+ul .fa{
+    color: white;
+    font-size: 18px;
+}
+.fa{
+    color:rgb(86, 200, 234) ;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    box-shadow: 0px 0px 10px black;
+
+}
+.left{
+    width: 40%;
+    height: 100%;
+    
+}
+.left hr{
+    color: white;
+    border: 3px solid white;
+    top: 8px;
+    position: relative;
+}
+.right{
+    height: 100%;
+    padding: 25px;
+    color: rgb(60, 66, 64); 
+    background-color: white;
+}
+.logo{
+    height:170px;
+    width:170px;
+    border-radius: 50%;
+}
+.name{
+    background-color: rgb(86, 200, 234);
+    padding: 56px;
+}
+.name h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.name{
+    text-align: center;
+}
+.information{
+    background-color: rgb(60, 66, 64);
+    padding: 44px 10px;
+    color: rgb(255, 255, 255);
+}
+.contact{
+    padding: 0px 29px;
+}
+.education{
+    padding: 0px 29px;
+}
+.language{
+    padding: 0px 29px;
+}
+.contact ul , .education ul{
+    padding: 15px 0px;
+}
+.contact ul span , .education ul span{
+    margin-left: 20px;
+    font-weight:600;
+}
+.contact ul p , .education ul p{
+    margin-left: 40px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.53);
+}
+.contact li, .education li{
+    padding: 15px 0px;
+}
+.contact_h{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 18px;
+    font-size: 21px;
+}
+.language{
+    font-size: 14px;
+}
+.language ul{
+    padding: 17px 25px;
+}
+.language li{
+    padding-bottom: 10px;
+}
+.eng{
+    color: rgba(255, 255, 255, 0.53);
+}
+#bar{
+    border-radius: 0px;
+    height: 8px;
+    width: 95px;
+    position: relative;
+    top: -3px;
+    border: none;
+}
+#bar::-webkit-progress-value { 
+    background-color: rgb(86, 200, 234); 
+} 
+#bar::-moz-progress-bar { 
+    background-color: rgb(86, 200, 234); 
+}
+.profile p{
+    padding: 15px 0px;
+}
+.right_head{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 15px;
+    color: rgb(60, 66, 64);
+    
+}
+.workexp ul{
+    padding-left: 20px;
+    margin: 14px;
+}
+.workexp li{
+    padding: 10px 0px;
+}
+.right p{
+    font-size: 15px;
+    color: rgba(99, 99, 99, 0.882);
+}
+.year{
+    position: relative;
+    float: right;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 21px 0px;
+}
+.ref{
+    padding: 10px;
+}
+.right hr{
+    top: 5px;
+    border: 3px solid;
+    position: relative;
+}
